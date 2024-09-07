@@ -21,8 +21,8 @@ if (!isset($_SESSION['user'])) {
     <div class="container" style="max-width: 600px">
         <h1 class="h3 my-4">profile</h1>
 
-        <?php if (file_exists("_actions/photos/profile.jpeg")): ?>
-            <img src="_actions/photos/profile.jpeg" width="300" class="img-thumbnail">
+        <?php if (file_exists("_actions/photos/profiles.jpeg")): ?>
+            <img src="_actions/photos/profiles.jpeg" width="300" class="img-thumbnail">
         <?php endif ?>
 
         <form action="_actions/upload.php" class="input-group my-2"
